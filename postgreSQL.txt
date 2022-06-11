@@ -1,0 +1,43 @@
+CREATE TABLE percentual(
+	SAAS 1 DOUBLE PRECISION,
+	SAAS 2 DOUBLE PRECISION,
+	SERVICO DOUBLE PRECISION
+);
+
+INSERT INTO percentual(
+VALUES
+	('SAAS 1', 0,5),
+	('SAAS 2', 0,3),
+	('SERVICO', 0,25);
+
+CREATE TABLE venda(
+	nutitulo INT PRIMARY KEY,
+	contrato_saas1 INT PRIMARY KEY,
+	contrato_saas2 INT PRIMARY KEY,
+	vendedor TEXT,
+	cliente TEXT,
+	cnpj TEXT, 
+	valor_saas1 DOUBLE PRECISION, 
+	valor_saas2 DOUBLE PRECISION, 
+	valor_servico DOUBLE PRECISION, 
+	data_emissao TEXT, 
+	data_saas1 TEXT, 
+	data_saas2 TEXT
+);
+
+CREATE TABLE comissao(
+	nutitulo INT PRIMARY KEY, 
+	contrato_saas1 INT PRIMARY KEY, 
+	contrato_saas2 INT PRIMARY KEY, 
+	nutitulodestino INT, 
+	vendedor TEXT, 
+	cliente TEXT, 
+	cnpj TEXT, 
+	comissao_saas1 DOUBLE PRECISION, 
+	comissao_saas2 DOUBLE PRECISION, 
+	comissao_servico DOUBLE PRECISION, 
+	status TEXT, 
+	data_pagamento TEXT,
+	status_comissao TEXT, 
+	valor_total_comissao DOUBLE PRECISION
+);
