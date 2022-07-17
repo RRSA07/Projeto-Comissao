@@ -12,3 +12,5 @@ Com os dados extraídos foi possível criar uma tabela de vendas geral e uma tab
 3- Metodologia
 
 Os processos de extração, tratamento e armazenamento dos dados foram realizados no Python. Para realizar a interação com o banco de dados a biblioteca utilizada foi a Psycopg2, para conectar com o Google Sheets o Gspread e para os arquivos em Excel assim como para o tratamento e manipulação desses dados foram usadas as bibliotecas Pandas e Numpy.
+
+Arquivos Branch Master
