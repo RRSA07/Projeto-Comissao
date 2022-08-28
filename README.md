@@ -1,4 +1,4 @@
-# Projeto-Comissao-Python
+# Projeto Comissao Python
 Projeto realizado para gerar e administrar as condições para o pagamento das comissões.
 
 1- Extração dos dados
